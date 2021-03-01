@@ -26,10 +26,10 @@ The Offical Repository can be found [here](https://github.com/Gencord/gencord). 
 
 > However, if something pertaining to this example bot, feel free to make a issue or pull request. Thanks.
 
-# New to Discord Bot making?
-
-More coming on this section soon.
-
-# Want to add the bot to your server?
+## Want to add the bot to your server?
 
 Click [here](https://discord.com/api/oauth2/authorize?client_id=816050426747027527&permissions=2147552256&scope=bot) to add the bot. As of now it only needs minimum permissions to work.
+
+## New to Discord Bot making?
+
+More coming on this section soon.

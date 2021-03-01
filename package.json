@@ -10,8 +10,8 @@
     "gencord": "^0.0.6"
   },
   "scripts": {
-    "start": "node GenCord.js",
-    "demon": "nodemon GenCord.js"
+    "start": "node src/GenCord.js",
+    "demon": "nodemon src/GenCord.js"
   },
   "devDependencies": {
     "nodemon": "^2.0.7"
