@@ -1,4 +1,3 @@
-const config = require("./config.json"); // This file imports out hidden data we dont want to type over and over.
 const { TOKEN, STATUS, PREFIX } = require("./config.json"); // importing our config file data.
 const { Message, Client } = require("gencord"); // importing the gencord package into this file.
 const { MessageEmbed, colors } = require("gencord"); // importing deps for embed creation

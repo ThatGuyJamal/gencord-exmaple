@@ -10,10 +10,10 @@ NPM: `npm init -y` then run `npm install`
 
 Lastly run: `yarn start` This will launch the bot. (assumes you have filled out the config.json file. Make sure to rename exmaple.config.json to config.json)
 
+> To run with nodemon use `yarn demon`
+
 If eveything goes well you should see:
 ![yarn start image](./assets/yarn_start_exmaple.png)
-
-> To run with nodemon use `yarn demon`
 
 # gencord-exmaple
 
