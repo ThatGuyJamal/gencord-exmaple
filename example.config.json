@@ -1,0 +1,5 @@
+{
+  "tokens": "You bot token",
+  "prefix": "What ever prefix you want. ex: !, ?, -",
+  "status": "online"
+}

@@ -1,0 +1,9 @@
+# A gitignore file is helpful for blocking the git control manager from uploading files to a code database.
+
+# Not needed on github becuase of large forking files.
+node_modules
+
+# For this project I put all the bot tokens and prefix in this file. You never want to upload this unless your code is private.
+config.json 
+
+# Others
