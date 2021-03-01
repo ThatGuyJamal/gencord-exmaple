@@ -20,9 +20,15 @@ gencord.on("message", (msg) => {
 	// checks if the user is another bot, if so dont reply.
 	if (message.author.bot) return;
 	else {
-		if (msg.content.startsWith(config.prefix + "ping")) {
-			// An if event. We call the client(gencord) and ask if a user sends a message starting with the prefix and pong, then run the command.
-			message.channel.send(`Pong! ${client.ws.ping()}ms`);
+		// here until permission checking is added (becuase in alpha) we will use a try catch statment.
+		try {
+			if (msg.content.startsWith(config.prefix + "ping")) {
+				// An if event. We call the client(gencord) and ask if a user sends a message starting with the prefix and pong, then run the command.
+				message.channel.send(`Pong! ${client.ws.ping()}ms`); // Sends the pong message to the given channel.
+			}
+			// catching any errors during run time for msg event.
+		} catch (e) {
+			console.log(e);
 		}
 	}
 });
