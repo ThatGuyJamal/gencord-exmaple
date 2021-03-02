@@ -1,5 +1,5 @@
 {
-  "tokens": "You bot token",
-  "prefix": "What ever prefix you want. ex: !, ?, -",
-  "status": "online"
+  "TOKEN": "You bot token",
+  "PREFIX": "What ever prefix you want. ex: !, ?, -",
+  "STATUS": "online"
 }
