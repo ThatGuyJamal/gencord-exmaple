@@ -30,20 +30,63 @@ client.on("message", (msg) => {
 			if (msg.content.startsWith(PREFIX + "embed")) {
 				const embed = new MessageEmbed(client);
 
-				embed.send(msg.channel.id, {
-					// Creates a template embed to send in the channel.
-					title: "Title",
-					description: "My description",
-					footer: {
-						text: "this is the footer",
-					},
-					color: colors.BLUE,
-					url: "https://google.com",
-					image: {
-						url:
-							"https://static.toiimg.com/photo/msid-67586673/67586673.jpg?3918697",
-					},
-				});
+				embed
+					.send(msg.channel.id, {
+						// Creates a template embed to send in the channel.
+						title: "Title",
+						description: "My description",
+						footer: {
+							text: "this is the footer",
+						},
+						color: colors.BLUE,
+						url: "https://google.com",
+						image: {
+							url:
+								"https://static.toiimg.com/photo/msid-67586673/67586673.jpg?3918697",
+						},
+					})
+					.catch((error) => {
+						console.log(error);
+					});
+			}
+			// help command
+			if (msg.content.startsWith(PREFIX + "help")) {
+				const embed = new MessageEmbed(client);
+
+				embed
+					.send(msg.channel.id, {
+						// Creates a template embed to send in the channel.
+						title: "Commands",
+						description:
+							"Here is a list of my commands.\n `ping` Sends the bots ping. \n `code` sends the bots source code.",
+						footer: {
+							text: "This is an example bot for the GenCord Framework.",
+						},
+						color: colors.GREEN,
+					})
+					.catch((error) => {
+						console.log(error);
+					})
+					.catch((error) => {
+						console.log(error);
+					});
+			}
+			// code command
+			if (msg.content.startsWith(PREFIX + "code")) {
+				const embed = new MessageEmbed(client);
+				embed
+					.send(msg.channel.id, {
+						// Creates a template embed to send in the channel.
+						title: "Source Code",
+						description: "https://github.com/ThatGuyJamal/gencord-exmaple",
+						footer: {
+							text: "This is an example bot for the GenCord Framework.",
+						},
+						color: colors.RED,
+					})
+					.catch((error) => {
+						console.log(error);
+					});
 			}
 			// catching any errors during run time for msg event.
 		} catch (e) {
