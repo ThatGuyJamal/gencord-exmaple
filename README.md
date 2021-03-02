@@ -6,6 +6,8 @@
 
 Yarn: `yarn init -y` then run `yarn install`
 
+or if you prefer npm (You dont have or need to run both yarn and npm)
+
 NPM: `npm init -y` then run `npm install`
 
 Lastly run: `yarn start` This will launch the bot. (assumes you have filled out the config.json file. Make sure to rename exmaple.config.json to config.json)
