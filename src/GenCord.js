@@ -2,8 +2,6 @@ const { TOKEN, STATUS, PREFIX } = require("./config.json"); // importing our con
 const { Message, Client } = require("gencord"); // importing the gencord package into this file.
 const { MessageEmbed, colors } = require("gencord"); // importing deps for embed creation
 
-// Keep in mind that most people name the bots 'new Client' "client". You can name yours whatever, but make sure you be consistent with it. For more complex use just use "client or bot"
-
 const client = new Client({
 	token: TOKEN,
 	status: STATUS,
