@@ -33,6 +33,7 @@ client.on("message", (msg) => {
 				const embed = new MessageEmbed(client);
 
 				embed.send(msg.channel.id, {
+					// Creates a template embed to send in the channel.
 					title: "Title",
 					description: "My description",
 					footer: {
