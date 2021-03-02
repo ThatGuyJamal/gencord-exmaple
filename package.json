@@ -1,7 +1,7 @@
 {
   "name": "GenCord",
   "version": "1.0.0",
-  "main": "GenCord.js",
+  "main": "src/GenCord.js",
   "license": "MIT",
   "repository": {
     "url": "https://github.com/ThatGuyJamal/gencord-exmaple"

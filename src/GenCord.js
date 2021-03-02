@@ -46,7 +46,7 @@ client.on("message", (msg) => {
 						},
 					})
 					.catch((error) => {
-						console.log(error);
+						msg.channel.send(`There was an error: ${error}`);
 					});
 			}
 			// help command
@@ -65,10 +65,7 @@ client.on("message", (msg) => {
 						color: colors.GREEN,
 					})
 					.catch((error) => {
-						console.log(error);
-					})
-					.catch((error) => {
-						console.log(error);
+						msg.channel.send(`There was an error: ${error}`);
 					});
 			}
 			// code command
@@ -85,7 +82,7 @@ client.on("message", (msg) => {
 						color: colors.RED,
 					})
 					.catch((error) => {
-						console.log(error);
+						msg.channel.send(`There was an error: ${error}`);
 					});
 			}
 			// catching any errors during run time for msg event.
