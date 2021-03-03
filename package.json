@@ -7,7 +7,7 @@
     "url": "https://github.com/ThatGuyJamal/gencord-exmaple"
   },
   "dependencies": {
-    "gencord": "^0.0.6"
+    "gencord": "^0.1.0"
   },
   "scripts": {
     "start": "node src/GenCord.js",
