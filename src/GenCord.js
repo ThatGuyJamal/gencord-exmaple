@@ -1,5 +1,5 @@
 const { TOKEN, STATUS, PREFIX } = require("./config.json");
-const { Message, Client } = require("gencord");
+const { Message, Client, ActivityTypes } = require("gencord");
 const { MessageEmbed, colors } = require("gencord");
 const fs = require("fs");
 
@@ -7,6 +7,12 @@ const client = new Client({
 	token: TOKEN,
 	status: STATUS,
 	intents: 513,
+	activityName: "Gencord.js",
+	activityType: ActivityTypes.Listening,
+	/**Playing ,
+  Streaming,
+  Listening,
+  Competing */
 });
 
 client.on("READY", () => {
