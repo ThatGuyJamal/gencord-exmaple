@@ -1,3 +1,9 @@
+# Warning
+
+As of (4/12/21) [Gencord](https://github.com/Gencord/gencord) is being rebuilt from the ground up. All code used here is on the legacy verison. 
+
+Check back later when this code is updated to a stable version of gencord. Thanks!
+
 # Quick Start
 
 `git clone https://github.com/ThatGuyJamal/gencord-exmaple`
