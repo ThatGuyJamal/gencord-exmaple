@@ -3,6 +3,6 @@ module.exports = {
 	description: "ping pong go brrr",
 
 	execute(client, message, args) {
-		message.channel.send(`Pong! ${client.ping()}ms`);
+		message.channel.send(`\`Pong! ${client.ping()}ms\``);
 	},
 };

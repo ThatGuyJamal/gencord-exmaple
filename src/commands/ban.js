@@ -4,6 +4,7 @@ module.exports = {
 	description: "Bans a user from the guild.",
 
 	execute(client, message, args) {
+		if (!message.guild) return;
 		// const userID = args[0];
 
 		// if (!userID) return message.channel.send("You need to provide a user ID!");
