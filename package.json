@@ -7,11 +7,13 @@
     "url": "https://github.com/ThatGuyJamal/gencord-exmaple"
   },
   "dependencies": {
-    "gencord": "^0.1.0"
+    "gencord": "^0.1.0",
+    "prettier": "^2.2.1"
   },
   "scripts": {
     "start": "node src/GenCord.js",
-    "demon": "nodemon src/GenCord.js"
+    "demon": "nodemon src/GenCord.js",
+    "lint": "prettier --write ."
   },
   "devDependencies": {
     "nodemon": "^2.0.7"
